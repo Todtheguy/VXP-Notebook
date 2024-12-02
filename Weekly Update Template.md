@@ -1,9 +1,15 @@
-# Meeting Notes
+## Meeting Notes for Week []
 
-# Code 
-'hellow' 
+Insert Notes Here
 
-# Tasks 
+
+### Code 
+```print("hello world") ```
+
+### Tasks 
 - [ ]  Task 1
 - [ ]  Task 2
 - [ ]  Task 3
+
+### Links
+[Text](link)
