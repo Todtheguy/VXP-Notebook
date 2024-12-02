@@ -1,4 +1,4 @@
-# [NAME] VIP Notebook Spring 2025
+# Tanju Ozdemir VIP Notebook Spring 2025
 
 ## Index
 [Week 1](#week1)\
