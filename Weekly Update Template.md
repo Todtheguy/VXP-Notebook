@@ -1,4 +1,4 @@
-## Meeting Notes for Week []
+### Meeting Notes
 
 Insert Notes Here
 
