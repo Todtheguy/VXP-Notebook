@@ -7,6 +7,13 @@ My notebooks for Accelerating Materials Discovery with AI VIP at Georgia Tech ðŸ
 [Archive](https://github.com/Todtheguy/VXP-Notebook/blob/main/Archive/)
 
 
-## VIP Links
+# VIP Links
+
 [Basecamp](https://3.basecamp.com/5538128/)
+
 [Slack](https://acceleratingm-dcn7830.slack.com/ssb/redirect)
+
+ 
+
+
+
