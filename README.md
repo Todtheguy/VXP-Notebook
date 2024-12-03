@@ -18,6 +18,7 @@ My notebook for Accelerating Materials Discovery with AI VIP at Georgia Tech üê
 
 [GT VPN](https://vpn.gatech.edu/global-protect/login.esp)
 
+[Docs](https://github.com/vxfung/Fung-lab-documentation?tab=readme-ov-file)
 
 ## Repos
 [MatDeepLearn Dev](https://github.com/Fung-Lab/MatDeepLearn_dev)
