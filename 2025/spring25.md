@@ -22,7 +22,7 @@
 
 ### Meeting Notes
 
-- Went over the syllabus and expectations for the semester
+- Went over the syllabus and timeline for the semester
 - Subteams were discussed
 - Will be joining Inverse Spectra subteam
 
@@ -38,14 +38,16 @@
 
 ### Meeting Notes
 
-Insert Notes Here
+- Recap of Timeline
+- Subteam annnounced
+- PACE ICE down for maintainence Jan 13-16
 
 
 ### Code 
 ```print("hello world") ```
 
 ### Tasks 
-- [ ]  Task 1
+- [ ]  Meet with team before 1/27
 - [ ]  Task 2
 - [ ]  Task 3
 
