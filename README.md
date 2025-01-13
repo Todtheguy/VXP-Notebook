@@ -20,6 +20,8 @@ My notebook for Accelerating Materials Discovery with AI VIP at Georgia Tech üê
 
 [Docs](https://github.com/vxfung/Fung-lab-documentation?tab=readme-ov-file)
 
+[Intro to PACE](https://github.com/guru-desh/Intro-To-PACE-ICE)
+
 ## Repos
 [MatDeepLearn Dev](https://github.com/Fung-Lab/MatDeepLearn_dev)
 
