@@ -31,9 +31,6 @@
 - [x]  Read Syllabus and Slides
 - [ ]  Set up PACE ICE and VSCode environment 
 
-### Links
-[Text](link)
-
 ## Week 2 <a name="week2"></a>
 
 ### Meeting Notes
@@ -41,7 +38,18 @@
 - Recap of Timeline
 - Subteam annnounced
 - PACE ICE down for maintainence Jan 13-16
+- Went over basics of Inverse Spectra problem (XRD, Rietveld Refinement, Materials Project) (See Slides)
+### Main Point 
+- Simulation of XRD Spectra is exceptionally computationally expensive, using existing methods (eg. Reverse Monte Carlo)
+- Use Active Learning to figure out crystal structure based on existing XRD Spectra
+- Crystal Structure represented as graphs with nodes as specific atoms and edges as bonds 
+  - Fit must be close
+  - Better than existing methods (Beat the Reverse Monte Carlo) 
+Surrogate model takes over the work of running multiple simulations
 
+Possible goals
+Conditional Diffusion to replace existing packages
+Building surrogate model
 
 ### Code 
 ```print("hello world") ```
