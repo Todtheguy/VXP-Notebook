@@ -22,16 +22,14 @@
 
 ### Meeting Notes
 
-Insert Notes Here
-
-
-### Code 
-```print("hello world") ```
+- Went over the syllabus and expectations for the semester
+- Subteams were discussed
+- Will be joining Inverse Spectra subteam
 
 ### Tasks 
-- [ ]  Task 1
-- [ ]  Task 2
-- [ ]  Task 3
+- [x]  Fill in signup sheet
+- [x]  Read Syllabus and Slides
+- [ ]  Set up PACE ICE and VSCode environment 
 
 ### Links
 [Text](link)
