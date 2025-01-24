@@ -1,4 +1,11 @@
 # Tanju Ozdemir VIP Notebook Spring 2025
+Group:
+Stephen Mezyk
+Rohan Konanki
+Yash Agrawal
+Colin Hakes
+Han Min
+
 
 ## Index
 [Week 1](#week1)\
@@ -51,34 +58,28 @@ Possible goals
 Conditional Diffusion to replace existing packages
 Building surrogate model
 
-### Code 
-```print("hello world") ```
 
 ### Tasks 
-- [ ]  Meet with team before 1/27
-- [ ]  Task 2
-- [ ]  Task 3
-
-### Links
-[Text](link)
+- [x]  Meet with team before 1/27
 
 ## Week 3 <a name="week3"></a>
+- Monday was MLK Jr Day (no meeting)
+  
 
 ### Meeting Notes
 
-Insert Notes Here
-
-
-### Code 
-```print("hello world") ```
-
+01/24
+- Group meeting 3:15PM Friday recurring 
+- Stephen is group leader
+- Established plan to gather research papers on inverse problems
+- Shared DiffCSP and ActiveStructOp Github Repos
+- Briefly shared what was worked on last semester (fixing version issues between DiffCSP and ActiveStructOp)
+  
 ### Tasks 
-- [ ]  Task 1
-- [ ]  Task 2
-- [ ]  Task 3
+- [ ]  Ask Ian for his draft research paper
+- [ ]  Read DiffCSP paper
+- [ ]  Read over slack chat
 
-### Links
-[Text](link)
 
 ## Week 4 <a name="week4"></a>
 
