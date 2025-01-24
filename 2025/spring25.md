@@ -1,5 +1,6 @@
 # Tanju Ozdemir VIP Notebook Spring 2025
-Group:
+Group:\
+Tanju Ozdemir\
 Stephen Mezyk\
 Rohan Konanki\
 Yash Agrawal\
