@@ -1,9 +1,9 @@
 # Tanju Ozdemir VIP Notebook Spring 2025
 Group:
-Stephen Mezyk
-Rohan Konanki
-Yash Agrawal
-Colin Hakes
+Stephen Mezyk\
+Rohan Konanki\
+Yash Agrawal\
+Colin Hakes\
 Han Min
 
 
