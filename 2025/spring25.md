@@ -37,7 +37,7 @@ Han Min
 ### Tasks 
 - [x]  Fill in signup sheet
 - [x]  Read Syllabus and Slides
-- [ ]  Set up PACE ICE and VSCode environment 
+- [x]  Set up PACE ICE and VSCode environment 
 
 ## Week 2 <a name="week2"></a>
 
