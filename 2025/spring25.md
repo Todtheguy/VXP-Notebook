@@ -99,7 +99,7 @@ New ideas:
 
 
 ### Code 
-```print("hello world") ```
+``` ```
 
 ### Tasks 
 - [ ]  Task 1
