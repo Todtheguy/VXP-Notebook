@@ -85,8 +85,17 @@ Building surrogate model
 ## Week 4 <a name="week4"></a>
 
 ### Meeting Notes
+- Continued presentation on ActiveStructOp
+- Recap of last semeser's work using DiffCSP
+- ActiveStructOp outperforms reverse Monte Carlo
 
-Insert Notes Here
+New ideas:
+**Project 1**
+-Replace GNN with conditional DIffCSP as surrogate model
+-Update DiffCSP values
+
+**Project 2**
+-Instead of random weights, use MatterTune (pre-trained GNN) 
 
 
 ### Code 
