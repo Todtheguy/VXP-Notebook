@@ -77,9 +77,9 @@ Building surrogate model
 - Briefly shared what was worked on last semester (fixing version issues between DiffCSP and ActiveStructOp)
   
 ### Tasks 
-- [ ]  Ask Ian for his draft research paper
-- [ ]  Read DiffCSP paper
-- [ ]  Read over slack chat
+- [x]  Ask Ian for his draft research paper
+- [x]  Read DiffCSP paper
+- [x]  Read over slack chat
 
 
 ## Week 4 <a name="week4"></a>
@@ -113,7 +113,9 @@ New ideas:
 
 ### Meeting Notes
 
-Insert Notes Here
+-Joined Project 1
+-Encountered issues with ActiveStructOpt and DiffCSP branches
+-Errors likely due to incorrect branches being installed 
 
 
 ### Code 
@@ -130,6 +132,9 @@ Insert Notes Here
 ## Week 6 <a name="week6"></a>
 
 ### Meeting Notes
+- Resolved issues with DiffCSP and ActiveStructOpt
+- Required the installation of checkpoint files from original DiffCSP
+- 
 
 Insert Notes Here
 
@@ -149,7 +154,7 @@ Insert Notes Here
 
 ### Meeting Notes
 
-Insert Notes Here
+-
 
 
 ### Code 
