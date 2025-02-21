@@ -113,18 +113,39 @@ New ideas:
 
 ### Meeting Notes
 
--Joined Project 1
--Encountered issues with ActiveStructOpt and DiffCSP branches
--Errors likely due to incorrect branches being installed 
+- Joined Project 1
+- Encountered issues with ActiveStructOpt and DiffCSP branches 
+- Errors likely due to incorrect branches being installed 
 
 
 ### Code 
-```print("hello world") ```
+Obtain API key from materials project: https://www.materialsproject.org 
+
+``export API_KEY=**insert api key here**``
+
+install DiffCSP and use the dependencies set in your localenv 
+
+``pip install git+https://github.com/karishmathakrar/DiffCSP_kt.git@main#egg=DiffCSP --no-deps`` 
+
+ActiveStructOpt repo from Akshay
+
+`git clone https://github.com/akshaydaf/ActiveStructOpt/blob/incorporate-diff-sampling/test_aso_diff.py`\
+`cd **whatever you named the cloned repo**`
+
+Copy config.yaml file from DiffCSP into ActiveStructOpt
+
+Run the following but with updated paths for your system: 
+
+''export PROJECT_ROOT=/home/hice1/**username**/ActiveStructOpt-DiffCSP/ActiveStructOpt export HYDRA_JOBS=/home/hice1/**username**/ActiveStructOpt-DiffCSP/ActiveStructOpt/hydra_jobs export WANDB_DIR=/home/hice1/**username**/ActiveStructOpt-DiffCSP/ActiveStructOpt/wandb_dir'''
+
+To confirm the integration is successful:
+
+``python test_aso_diff.py``
 
 ### Tasks 
-- [ ]  Task 1
-- [ ]  Task 2
-- [ ]  Task 3
+- [X]  sucessfully run test aso file
+- [X]  fix bugs
+- [X]  download checkpoint files
 
 ### Links
 [Text](link)
@@ -132,15 +153,42 @@ New ideas:
 ## Week 6 <a name="week6"></a>
 
 ### Meeting Notes
-- Resolved issues with DiffCSP and ActiveStructOpt
+- Resolved integration issues with DiffCSP and ActiveStructOpt
 - Required the installation of checkpoint files from original DiffCSP
-- 
-
-Insert Notes Here
-
+- Successfully ran test aso file
 
 ### Code 
-```print("hello world") ```
+
+- Updated the installation instructions from last week
+- Deleted cloned ActiveStructOpt and DiffCSP and installed correct versions
+
+Obtain API key from materials project: https://www.materialsproject.org 
+
+``export API_KEY=**insert api key here**``\
+
+clone DiffCSP and use the dependencies set in your localenv 
+
+``git clone -b remove-config https://github.com/karishmathakrar/DiffCSP_kt.git``\ 
+
+ActiveStructOpt repo from Akshay
+
+`git clone https://github.com/akshaydaf/ActiveStructOpt/blob/incorporate-diff-sampling/test_aso_diff.py`\
+`cd **whatever you named the cloned repo**`
+
+Copy config.yaml file from DiffCSP into ActiveStructOpt (if it's not there already)\
+Change the username in the directories of the config.yaml to reflect your own\
+
+Run the following but with updated paths for your system: 
+
+''export PROJECT_ROOT=/home/hice1/**username**/ActiveStructOpt-DiffCSP/ActiveStructOpt  export HYDRA_JOBS=/home/hice1/**username**/ActiveStructOpt-DiffCSP/ActiveStructOpt/hydra_jobs export WANDB_DIR=/home/hice1/**username**/ActiveStructOpt-DiffCSP/ActiveStructOpt/wandb_dir'''
+
+Download DiffCSP checkpoints from here: 
+
+
+
+To confirm the integration is successful:
+
+``python test_aso_diff.py``
 
 ### Tasks 
 - [ ]  Task 1
