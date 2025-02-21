@@ -175,6 +175,11 @@ ActiveStructOpt repo from Akshay
 `git clone https://github.com/akshaydaf/ActiveStructOpt/blob/incorporate-diff-sampling/test_aso_diff.py`\
 `cd **whatever you named the cloned repo**`
 
+In Diffusion.py within ActiveStructOpt
+change new_structure so that:
+
+`new_structure = sample.main(self.model_path, self.save_path, self.formula, self.num_evals, self.batch_size, self.step_lr, self.lengths, self.angles)`
+
 Copy config.yaml file from DiffCSP into ActiveStructOpt (if it's not there already)\
 Change the username in the directories of the config.yaml to reflect your own\
 
@@ -182,8 +187,7 @@ Run the following but with updated paths for your system:
 
 ''export PROJECT_ROOT=/home/hice1/**username**/ActiveStructOpt-DiffCSP/ActiveStructOpt  export HYDRA_JOBS=/home/hice1/**username**/ActiveStructOpt-DiffCSP/ActiveStructOpt/hydra_jobs export WANDB_DIR=/home/hice1/**username**/ActiveStructOpt-DiffCSP/ActiveStructOpt/wandb_dir'''
 
-Download DiffCSP checkpoints from here: 
-
+Download DiffCSP checkpoints from here: https://drive.google.com/drive/folders/11WOc9lTZN4hkIY7SKLCIrbsTMGy9TsoW
 
 
 To confirm the integration is successful:
