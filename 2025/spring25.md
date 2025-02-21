@@ -170,12 +170,12 @@ clone DiffCSP and use the dependencies set in your localenv
 
 ``git clone -b remove-config https://github.com/karishmathakrar/DiffCSP_kt.git``\ 
 
-ActiveStructOpt repo from Akshay
+Clone the ActiveStructOpt repo from Akshay into ICE
 
 `git clone https://github.com/akshaydaf/ActiveStructOpt/blob/incorporate-diff-sampling/test_aso_diff.py`\
 `cd **whatever you named the cloned repo**`
 
-In Diffusion.py within ActiveStructOpt
+In diffusion.py within ActiveStructOpt
 change new_structure so that:
 
 `new_structure = sample.main(self.model_path, self.save_path, self.formula, self.num_evals, self.batch_size, self.step_lr, self.lengths, self.angles)`
@@ -189,6 +189,11 @@ Run the following but with updated paths for your system:
 
 Download DiffCSP checkpoints from here: https://drive.google.com/drive/folders/11WOc9lTZN4hkIY7SKLCIrbsTMGy9TsoW
 
+Unzip the file, and copy it to ICE 
+
+from mp_csp in diffcsp-checkpoints:
+
+copy the last.ckpt to  pretrained-checkpoints in diffcsp-kt
 
 To confirm the integration is successful:
 
