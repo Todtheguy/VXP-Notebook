@@ -164,7 +164,7 @@ To confirm the integration is successful:
 
 clone DiffCSP and use the dependencies set in your localenv 
 
-`git clone -b remove-config https://github.com/karishmathakrar/DiffCSP_kt.git``
+`git clone -b remove-config https://github.com/karishmathakrar/DiffCSP_kt.git`
 
 Clone the ActiveStructOpt repo from Akshay into ICE
 
