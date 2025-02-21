@@ -164,15 +164,15 @@ To confirm the integration is successful:
 
 Obtain API key from materials project: https://www.materialsproject.org 
 
-``export API_KEY=**insert api key here**``\
+``export API_KEY=**insert api key here**``
 
 clone DiffCSP and use the dependencies set in your localenv 
 
-``git clone -b remove-config https://github.com/karishmathakrar/DiffCSP_kt.git``\ 
+``git clone -b remove-config https://github.com/karishmathakrar/DiffCSP_kt.git``
 
 Clone the ActiveStructOpt repo from Akshay into ICE
 
-`git clone https://github.com/akshaydaf/ActiveStructOpt/blob/incorporate-diff-sampling/test_aso_diff.py`\
+`git clone https://github.com/akshaydaf/ActiveStructOpt/blob/incorporate-diff-sampling/test_aso_diff.py`
 `cd **whatever you named the cloned repo**`
 
 In diffusion.py within ActiveStructOpt's sampler - /home/hice1/**username**/ActiveStructOpt/activestructopt/sampler/diffusion.py
@@ -193,7 +193,7 @@ Unzip the file, and copy it to ICE
 
 from mp_csp in diffcsp-checkpoints:
 
-copy the last.ckpt to pretrained-checkpoints in diffcsp-kt
+copy the last.ckpt to pretrained-checkpoints in diffcsp-kt /home/hice1/**username**/DiffCSP_kt/pretrained_checkpoints
 
 To confirm the integration is successful:
 
