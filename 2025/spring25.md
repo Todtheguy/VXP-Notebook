@@ -175,7 +175,7 @@ Clone the ActiveStructOpt repo from Akshay into ICE
 `git clone https://github.com/akshaydaf/ActiveStructOpt/blob/incorporate-diff-sampling/test_aso_diff.py`\
 `cd **whatever you named the cloned repo**`
 
-In diffusion.py within ActiveStructOpt
+In diffusion.py within ActiveStructOpt's sampler - /home/hice1/**username**/ActiveStructOpt/activestructopt/sampler/diffusion.py
 change new_structure so that:
 
 `new_structure = sample.main(self.model_path, self.save_path, self.formula, self.num_evals, self.batch_size, self.step_lr, self.lengths, self.angles)`
@@ -193,7 +193,7 @@ Unzip the file, and copy it to ICE
 
 from mp_csp in diffcsp-checkpoints:
 
-copy the last.ckpt to  pretrained-checkpoints in diffcsp-kt
+copy the last.ckpt to pretrained-checkpoints in diffcsp-kt
 
 To confirm the integration is successful:
 
