@@ -162,10 +162,6 @@ To confirm the integration is successful:
 - Updated the installation instructions from last week
 - Deleted cloned ActiveStructOpt and DiffCSP and installed correct versions
 
-Obtain API key from materials project: https://www.materialsproject.org 
-
-``export API_KEY=**insert api key here**``
-
 clone DiffCSP and use the dependencies set in your localenv 
 
 ``git clone -b remove-config https://github.com/karishmathakrar/DiffCSP_kt.git``
@@ -183,12 +179,9 @@ change `new_structure` so that:
 
 Copy `config.yaml` file from DiffCSP into `activestructopt` (if it's not there already)\
 
-In `
-Change the username in the listed directories to reflect your own\
+In `config.yaml` for DiffCSP and ActiveStructOpt
+Change the username in the listed directories to reflect your own
 
-Run the following but with updated paths for your system: 
-
-`export PROJECT_ROOT=/home/hice1/**username**/ActiveStructOpt-DiffCSP/ActiveStructOpt  export HYDRA_JOBS=/home/hice1/**username**/ActiveStructOpt-DiffCSP/ActiveStructOpt/hydra_jobs export WANDB_DIR=/home/hice1/**username**/ActiveStructOpt-DiffCSP/ActiveStructOpt/wandb_dir`
 
 Download DiffCSP checkpoints from here: https://drive.google.com/drive/folders/11WOc9lTZN4hkIY7SKLCIrbsTMGy9TsoW
 
@@ -197,6 +190,11 @@ Unzip the file, and copy it to ICE
 from `mp_csp` in `diffcsp-checkpoints`:
 
 copy the `last.ckpt` to pretrained-checkpoints in diffcsp-kt (`/home/hice1/**username**/DiffCSP_kt/pretrained_checkpoints`)
+
+Run the following but with updated paths for your system (Obtain API key from materials project: https://www.materialsproject.org) (This has to be run at each initialization): 
+
+`export PROJECT_ROOT=/home/hice1/**username**/ActiveStructOpt-DiffCSP/ActiveStructOpt export HYDRA_JOBS=/home/hice1/**username**/ActiveStructOpt-DiffCSP/ActiveStructOpt/hydra_jobs export WANDB_DIR=/home/hice1/**username**/ActiveStructOpt-DiffCSP/ActiveStructOpt/wandb_dir export API_KEY=**insert api key here**`
+
 
 To confirm the integration is successful:
 
