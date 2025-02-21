@@ -173,15 +173,18 @@ clone DiffCSP and use the dependencies set in your localenv
 Clone the ActiveStructOpt repo from Akshay into ICE
 
 `git clone https://github.com/akshaydaf/ActiveStructOpt/blob/incorporate-diff-sampling/test_aso_diff.py`
-`cd **whatever you named the cloned repo**`
+`cd ActiveStructOpt`
 
-In diffusion.py within ActiveStructOpt's sampler - /home/hice1/**username**/ActiveStructOpt/activestructopt/sampler/diffusion.py
-change new_structure so that:
+In `diffusion.py` within ActiveStructOpt's sampler (`/home/hice1/**username**/ActiveStructOpt/activestructopt/sampler/diffusion.py`)
+
+change `new_structure` so that:
 
 `new_structure = sample.main(self.model_path, self.save_path, self.formula, self.num_evals, self.batch_size, self.step_lr, self.lengths, self.angles)`
 
-Copy config.yaml file from DiffCSP into ActiveStructOpt (if it's not there already)\
-Change the username in the directories of the config.yaml to reflect your own\
+Copy `config.yaml` file from DiffCSP into `activestructopt` (if it's not there already)\
+
+In `
+Change the username in the listed directories to reflect your own\
 
 Run the following but with updated paths for your system: 
 
@@ -191,9 +194,9 @@ Download DiffCSP checkpoints from here: https://drive.google.com/drive/folders/1
 
 Unzip the file, and copy it to ICE 
 
-from mp_csp in diffcsp-checkpoints:
+from `mp_csp` in `diffcsp-checkpoints`:
 
-copy the last.ckpt to pretrained-checkpoints in diffcsp-kt /home/hice1/**username**/DiffCSP_kt/pretrained_checkpoints
+copy the `last.ckpt` to pretrained-checkpoints in diffcsp-kt (`/home/hice1/**username**/DiffCSP_kt/pretrained_checkpoints`)
 
 To confirm the integration is successful:
 
