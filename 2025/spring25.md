@@ -212,7 +212,10 @@ To confirm the integration is successful:
 
 ### Meeting Notes
 
--
+-Focused on getting everyone to successfully run the test_aso_diff.py file successfully
+-Reinstalling DiffCSP-kt as a python package in conda env using the following command seemes to have fixed the issue:
+`pip install -e. git+https://github.com/karishmathakrar/DiffCSP_kt.git@remove-config#egg=DiffCSP --no-deps`
+-I was able to run the file without DiffCSP-kt as an installed package (had the needed files in my root directory, ActiveStructOpt pointed to the directories in DiffCSP using the config.yaml file)
 
 
 ### Code 
