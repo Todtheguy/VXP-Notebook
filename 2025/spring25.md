@@ -233,7 +233,8 @@ To confirm the integration is successful:
 
 ### Meeting Notes
 
-Insert Notes Here
+-Forked and merged changes for ActiveStructOpt and DiffCSP
+-Shared admin role with Ian for both repos to ensure continuity of work into the future
 
 
 ### Code 
@@ -269,7 +270,7 @@ Insert Notes Here
 
 ### Meeting Notes
 
-Insert Notes Here
+Spring Break - No Meetings this week
 
 
 ### Code 
@@ -286,7 +287,7 @@ Insert Notes Here
 ## Week 11 <a name="week11"></a>
 
 ### Meeting Notes
-
+split into two subteams: obtaining the gradient outputs of diffusion models, and modifying the loss weighting on torch.py
 Insert Notes Here
 
 
@@ -304,8 +305,9 @@ Insert Notes Here
 ## Week 12 <a name="week12"></a>
 
 ### Meeting Notes
+03.31
+Current Week
 
-Insert Notes Here
 
 
 ### Code 
