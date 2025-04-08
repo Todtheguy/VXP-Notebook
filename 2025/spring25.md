@@ -306,9 +306,13 @@ Insert Notes Here
 
 ### Meeting Notes
 03.31
-Current Week
+Need to edit Diffusion.py in DiffCSP
+Work completed on ActiveStructOpt side
 
+04.04
 
+04.05
+Worked on diffusion.py but unable to test due to Materials Project site being down
 
 ### Code 
 ```print("hello world") ```
