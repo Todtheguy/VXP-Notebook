@@ -364,35 +364,19 @@ Insert Notes Here
 ## Week 15 <a name="week15"></a>
 
 ### Meeting Notes
+- Presented Final Presentation 
 
-Insert Notes Here
-
-
-### Code 
-```print("hello world") ```
 
 ### Tasks 
-- [ ]  Task 1
-- [ ]  Task 2
-- [ ]  Task 3
+- [x]  Follow up on group paper assignment
 
-### Links
-[Text](link)
 
 ## Week 16 <a name="week16"></a>
 
 ### Meeting Notes
-
-Insert Notes Here
-
-
-### Code 
-```print("hello world") ```
+-Worked on completing final group paper
+`
 
 ### Tasks 
-- [ ]  Task 1
-- [ ]  Task 2
-- [ ]  Task 3
+- [x]  Add edits to group paper
 
-### Links
-[Text](link)
