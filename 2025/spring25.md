@@ -200,14 +200,6 @@ To confirm the integration is successful:
 
 ``python test_aso_diff.py``
 
-### Tasks 
-- [ ]  Task 1
-- [ ]  Task 2
-- [ ]  Task 3
-
-### Links
-[Text](link)
-
 ## Week 7 <a name="week7"></a>
 
 ### Meeting Notes
@@ -217,18 +209,6 @@ To confirm the integration is successful:
 `pip install -e. git+https://github.com/karishmathakrar/DiffCSP_kt.git@remove-config#egg=DiffCSP --no-deps`
 -I was able to run the file without DiffCSP-kt as an installed package (had the needed files in my root directory, ActiveStructOpt pointed to the directories in DiffCSP using the config.yaml file)
 
-
-### Code 
-```print("hello world") ```
-
-### Tasks 
-- [ ]  Task 1
-- [ ]  Task 2
-- [ ]  Task 3
-
-### Links
-[Text](link)
-
 ## Week 8 <a name="week8"></a>
 
 ### Meeting Notes
@@ -237,22 +217,15 @@ To confirm the integration is successful:
 -Shared admin role with Ian for both repos to ensure continuity of work into the future
 
 
-### Code 
-```print("hello world") ```
-
 ### Tasks 
-- [ ]  Task 1
-- [ ]  Task 2
-- [ ]  Task 3
+- [X]  Notify team of new repo 
+- [X]  Share link in slack
 
-### Links
-[Text](link)
 
 ## Week 9 <a name="week9"></a>
 
 ### Meeting Notes
-
-Insert Notes Here
+-Midterm presentations
 
 
 ### Code 
@@ -268,39 +241,43 @@ Insert Notes Here
 
 ## Week 10 <a name="week10"></a>
 
-### Meeting Notes
-
 Spring Break - No Meetings this week
 
-
-### Code 
-```print("hello world") ```
-
-### Tasks 
-- [ ]  Task 1
-- [ ]  Task 2
-- [ ]  Task 3
-
-### Links
-[Text](link)
 
 ## Week 11 <a name="week11"></a>
 
 ### Meeting Notes
-split into two subteams: obtaining the gradient outputs of diffusion models, and modifying the loss weighting on torch.py
-Insert Notes Here
+-split into two subteams: obtaining the gradient outputs of diffusion models, and modifying the loss weighting on torch.py
+
+Obtaining the model/outputs of diffusion.py, specifically pred_x (max 4 people)
+Yash Agrawal
+Min Han
+Tanju Ozdemir
+Rohan Konanki
+
+Changing torch.py to include a new loss function and weighting (max 3 people)
+Stephen mezyk
+Jerry Wang
+Colin Hakes
 
 
-### Code 
-```print("hello world") ```
+-Discussed goals with Ian:
 
-### Tasks 
-- [ ]  Task 1
-- [ ]  Task 2
-- [ ]  Task 3
+Ian - build an optimizer that uses the loss from the diffCSP and its gradients in addition to the loss from the forward model and its gradients. And combines those together, essentially by adding gradients together with some weighting factor, then optimize the structure using that
+o   There's an optimizer already called torch that does the forward model, we need to combine the diffCSP loss gradients into that to bias it into the direction of possible crystals
+o   There's a couple of tasks
+§  Get diff csp to output gradients of its loss after each iteration 
+§  be able to pass in a particular structure and get the gradients with respect to diff csp loss – likely the harder task
+§  Create optimizer in active struct op that adds additional loss to the gradients from the model.
+·  	“Take gradient of loss from diff csp and gradient of loss from forward and weight them of different values and add them together”
+o   Probably make the weight a hyperparameter, not training
+o   Files to be modifying
+§  Diffcsp/pl_modules/diffusion.py inside of DIFFCSP
+·  	This is for outputting gradients of loss after each iteration
+·  	Pred_x and pred_lat are likely our gradients/noise
+·  	We need to communicate these gradients/noise as outputs to activestructopt
+§  activestructop/optimizer/torch.py
 
-### Links
-[Text](link)
 
 ## Week 12 <a name="week12"></a>
 
@@ -309,57 +286,25 @@ Insert Notes Here
 Need to edit Diffusion.py in DiffCSP
 Work completed on ActiveStructOpt side
 
-04.04
 
 04.05
-Worked on diffusion.py but unable to test due to Materials Project site being down
-
-### Code 
-```print("hello world") ```
-
-### Tasks 
-- [ ]  Task 1
-- [ ]  Task 2
-- [ ]  Task 3
-
-### Links
-[Text](link)
+Team worked on diffusion.py but unable to test due to Materials Project site being down
 
 ## Week 13 <a name="week13"></a>
 
 ### Meeting Notes
+-Got outputs, but results unsatisfactory (lots of bugs)
 
-Insert Notes Here
 
-
-### Code 
-```print("hello world") ```
-
-### Tasks 
-- [ ]  Task 1
-- [ ]  Task 2
-- [ ]  Task 3
-
-### Links
-[Text](link)
 
 ## Week 14 <a name="week14"></a>
 
 ### Meeting Notes
 
-Insert Notes Here
-
-
-### Code 
-```print("hello world") ```
+-Started work to prepare for final presentation
 
 ### Tasks 
-- [ ]  Task 1
-- [ ]  Task 2
-- [ ]  Task 3
-
-### Links
-[Text](link)
+- [X]  Work on slides
 
 ## Week 15 <a name="week15"></a>
 
